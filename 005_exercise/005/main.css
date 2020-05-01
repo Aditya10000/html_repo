@@ -1,0 +1,7 @@
+p::first-letter{
+  color: rgb(24, 152, 3);
+  font-size: 20px;
+}
+p::first-line{
+  color: rgba(21, 60, 9, 0.83);
+}
