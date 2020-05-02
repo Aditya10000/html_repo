@@ -1,0 +1,6 @@
+ul#summar-drinks li{
+  color: red;
+}
+ul#summar-drinks li.favorite{
+  color: green;
+}
