@@ -1,0 +1,37 @@
+
+div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.class1 {
+  background-color: rgb(250, 15, 0);
+  background-image: url("../img/1.png");
+}
+.class2 {
+  background-color: rgb(255, 138, 0);
+  background-image: url("../img/2.png");
+}
+.class3 {
+  background-color: rgb(255, 191, 0);
+  background-image: url("../img/3.png");
+}
+.class4 {
+  background-color: rgb(82, 255, 0);
+  background-image: url("../img/4.png");
+}
+.class5 {
+  background-color: rgb(0, 255, 201);
+  background-image: url("../img/5.png");
+}
+.class6 {
+  background-color: rgb(0, 140, 255);
+  background-image: url("../img/6.jpg");
+}
+.class7 {
+  background-color: rgb(255, 0, 76);
+  background-image: url("../img/7.jpg");
+}
+body {
+  border: 2px solid black;
+}
