@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  border-bottom: none;
+}
+a {
+  font-size: 1.2rem;
+}

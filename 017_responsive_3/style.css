@@ -1,0 +1,15 @@
+header {
+  background-color: rgb(255, 48, 110);
+}
+article {
+  background-color: rgb(50, 225, 255);
+}
+.aside1 {
+  background-color: rgb(255, 246, 37);
+}
+.aside2 {
+  background-color: rgb(255, 42, 221);
+}
+footer {
+  background-color: rgb(54, 252, 172);
+}

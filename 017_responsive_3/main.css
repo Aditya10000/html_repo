@@ -1,0 +1,21 @@
+body,html,header,footer,aside,article {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  padding: 10px;
+}
+aside {
+  text-align: center;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+}
+article {
+  padding: 10px;
+}

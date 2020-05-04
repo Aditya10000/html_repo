@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+header,footer,article {
+  width: 100%;
+}
+aside {
+  width: 50%;
+}

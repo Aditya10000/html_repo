@@ -1,0 +1,10 @@
+html,body,nav,article,aside,header,footer {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+header,footer,aside,article,nav {
+  padding: 15px;
+  border: 1px solid black;
+}

@@ -1,0 +1,13 @@
+ul {
+  background-color: rgb(29, 199, 244);
+}
+a:hover {
+  background-color: rgb(3, 255, 240);
+  color: black;
+}
+li {
+  border-bottom: 1px solid black;
+}
+li:last-child {
+  border-bottom: none;
+}
