@@ -1,0 +1,13 @@
+p::first-letter{
+  font-size: 2rem;
+  color: rgb(0, 217, 255);
+}
+p::first-line{
+  color: rgb(11, 32, 99);
+}
+p {
+  text-indent: 2rem;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}

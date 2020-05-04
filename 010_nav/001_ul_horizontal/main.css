@@ -1,0 +1,26 @@
+
+a
+ {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+ ul {
+  list-style: none;
+}
+
+li {
+  background-color: red;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: green;
+  background-color: white;
+}
