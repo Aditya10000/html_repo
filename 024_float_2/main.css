@@ -1,0 +1,27 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+div {
+  margin: 10px auto;
+  width: 80%;
+  border: 2px solid rgb(0, 27, 88);
+  overflow: auto;
+}
+nav {
+  width: 35%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+section {
+  float: right;
+  height: 100%;
+  width: 65%;
+  box-sizing: border-box;
+  padding: 10px;
+}

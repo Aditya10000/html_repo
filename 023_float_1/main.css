@@ -1,0 +1,33 @@
+ body, html, img, p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 80%;
+  margin: 30px auto;
+  border: 5px solid darkred;
+  padding: 5px;
+  overflow: auto;
+  background-color: black;
+}
+img {
+  float: right;
+  width: 30%;
+  border: 2px solid darkred;
+  border-radius: 3px;
+}
+p {
+  padding-right: 5px;
+  width: 70%;
+  float: left;
+  box-sizing: border-box;
+  font-weight: 500;
+  color: rgb(255, 3, 79);
+  /* text-align: justify; */
+}
+#clear {
+  clear: both;
+  width: 100%;
+}
