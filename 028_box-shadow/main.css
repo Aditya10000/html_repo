@@ -1,0 +1,22 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  height: 10rem;
+  width: 15rem;
+  border: 5px solid rgb(180, 235, 28);
+  background-color: rgb(103, 207, 210);
+  box-shadow: 1px 1px 5px 5px rgb(255, 71, 13);
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+}
