@@ -1,0 +1,8 @@
+.idx-sec {
+  background-image: url("img/background-photo.jpg");
+}
+.idx-div {
+  justify-content: space-between;
+  height: 90vh;
+  width: 60%;
+}

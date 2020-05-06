@@ -1,0 +1,35 @@
+html, body,button, h1, h2, section {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.idx-sec {
+  height: 100vh;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  background-size: cover;
+  background-attachment: fixed;
+}
+button {
+  text-transform: inherit;
+  background-color: transparent;
+}
+.idx-div {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+h1,h2 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 15px;
+}

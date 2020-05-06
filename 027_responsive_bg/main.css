@@ -1,0 +1,23 @@
+.idx-div {
+  height: 90vh;
+}
+h1 {
+  font-size: 1.9rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Kotta One', sans-serif;
+}
+button {
+  font-size: 1.5rem;
+  font-family: 'Cantarell', serif;
+  padding: 2px 5px;
+  font-weight: 700;
+  border-radius: 3px;
+  margin: 3px;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+.idx-sec {
+  background-image: url("img/background-photo-mobile-devices.jpg");
+}

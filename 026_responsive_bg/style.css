@@ -1,0 +1,43 @@
+body,header,h1 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-attachment: fixed;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: font-family: 'Kotta One', serif;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  width: 100%;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: 'Cantarell', sans-serif;
+  width: 100%
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-family: 'cantarell', sans-serif;
+  font-weight: 400;
+}
