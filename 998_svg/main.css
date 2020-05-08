@@ -1,0 +1,10 @@
+#first {
+  fill: green;
+}
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+#first:hover {
+  fill: red;
+}
