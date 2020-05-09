@@ -1,0 +1,36 @@
+html, body, div {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.main {
+  margin: 50px auto;
+  height: 10vh;
+  width: 50%;
+  border: 2px solid rgb(124, 190, 238);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.first, .third {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(127, 233, 250);
+  cursor: pointer;
+}
+.first:hover, .third:hover {
+  background-color: rgb(4, 195, 255);
+}
+.second {
+  width: 50%;
+  height: 100%;
+  border-left: 2px solid rgb(124, 190, 238);
+  border-right: 2px solid rgb(124, 190, 238);
+}
+.main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+}

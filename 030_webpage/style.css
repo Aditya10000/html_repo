@@ -1,8 +1,18 @@
-html, body,section, h2,header {
+html, body,section,h1, h2,header {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
+}
+header {
+  height: 2rem;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0;
+  background-color: rgba(66, 70, 54, 0.6);
+  display: flex;
+  align-items: center;
 }
 .top-section {
   color: whitesmoke;
@@ -17,6 +27,7 @@ html, body,section, h2,header {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  background-attachment: fixed;
   }
 .top-parent-div {
   display: flex;
@@ -36,32 +47,4 @@ button {
 
 h1, h2 {
   text-align: center;
-}
-header {
-  height: 2rem;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  left: 0;
-  background-color: rgba(66, 70, 54, 0.6);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header nav, header div{
-  margin: 1rem;
-  height: 80%;
-  width: 25%;
-  /* background-color: red; */
-}
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-nav svg, div svg {
-  height: 80%;
-  padding: .1rem;
-  fill: whitesmoke;
-  cursor: pointer;
 }

@@ -2,11 +2,14 @@ section {
   background-image: url("img/background-photo-mobile-devices.jpg");
 }
 .top-parent-div {
-  height: 90vh;
+  height: 70vh;
 }
 h1 {
   font-size: 1rem;
 }
 h2 {
   font-size: .8rem;
+}
+/* header div, header nav { */
+  display: none;
 }

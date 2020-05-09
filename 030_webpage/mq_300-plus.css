@@ -1,0 +1,67 @@
+section {
+  background-image: url("img/background-photo.jpg");
+}
+.top-parent-div {
+  height: 50vh;
+  justify-content: space-between;
+}
+section div h1 {
+  font-size: 1.5rem;
+}
+section div h2 {
+  font-size: 1.2rem;
+}
+header {
+  justify-content: space-between;
+}
+header nav, header div{
+  margin: 1rem;
+  height: 80%;
+  display: flex;
+  align-items: center;
+
+  /* background-color: red; */
+}
+header nav {
+  width: 45%;
+}
+header div {
+  width: 25%;
+}
+header nav {
+  justify-content: space-between;
+  color: whitesmoke;
+}
+header div {
+  justify-content: flex-start;
+}
+header div a h1 {
+  margin: 0 .2rem;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+nav svg, div svg {
+  height: 80%;
+  padding: .1rem;
+  fill: currentcolor;
+  cursor: pointer;
+}
+ div a {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 100%;
+   text-decoration: none;
+   color: whitesmoke;
+ }
+div h1 {
+  font-size: 1rem;
+  color: inherit;
+}
+nav svg:hover {
+  fill: rgb(255, 234, 64);
+}
+div a:hover {
+  color: rgb(255, 234, 64);
+}
