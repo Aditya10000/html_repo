@@ -1,0 +1,37 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+svg {
+  height: 25vw;
+  width: 25vw;
+  fill: rgb(249, 104, 0);
+  animation-name: dharma;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  position: relative;
+  left: 0;
+
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+@keyframes dharma {
+  0% {
+    transform: rotate(360deg);
+    left: 0;
+    top:0%;
+  }
+  100% {
+    transform: rotate(0deg);
+    left: 60%;
+    top: 60%;
+    fill: rgb(0, 180, 67);
+  }
+}
