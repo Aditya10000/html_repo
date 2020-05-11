@@ -1,57 +1,47 @@
-html, body, div, h1, svg {
+h1, body, html, div {
   padding: 0;
   margin: 0;
-  border: 0;
   box-sizing: border-box;
+  border: 0;
 }
 body {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 .main {
+  height: 40vw;
+  width: 80%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35vh;
-  width: 30%;
-  border: 1px solid rgb(180, 180, 180);
 }
-.main>div {
-  flex-grow: 1;
+.first, .second, .third {
+  height: 100%;
+  width: 30vw;
+  font-size: 3.5vw;
+  border-radius: 3px;
+  border: 1px solid rgba(152, 152, 152, 0.4);
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-}
-.main>div div {
-  width: 100%;
 }
 svg {
-  height: 5.6rem;
-  fill: rgb(150, 168, 176);
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 1em;
+  height: 5em;
+  width: 5em;
+  fill: rgb(161, 212, 210);
 }
 h1 {
-  font-size: .9rem;
+  font-size: .71em;
   text-align: center;
+  width: 80%;
+  color: rgb(152, 152, 152);
 }
-h1:first-child {
-  margin-bottom: 20px;
-  padding: 5px;
-  color: rgb(106, 125, 136);
-}
-h1:last-child {
-  padding: 5px;
-  background-color: rgba(170, 170, 170,0.5);
-  color: rgb(58, 88, 67);
-  border-top: 1px solid rgb(180, 180, 180);
-}
-.second_div {
-  border-left: 1px solid rgb(180, 180, 180);
-  border-right: 1px solid rgb(180, 180, 180);
+.bottom-one, .bottom-two, .bottom-three {
+  width: 100%;
+  padding: .1em;
+  background-color: rgba(200, 200, 200, 0.3);
+  color: rgb(46, 88, 59);
+  border-top: 1px solid rgba(152, 152, 152, 0.4);
 }
